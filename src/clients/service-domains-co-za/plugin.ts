@@ -47,7 +47,7 @@ export class domainsCoZa extends ServicesClient<
 
   public async checkDomainTLDs(
     sid: string,
-    tlds: Array<string>,
+    tlds: Array<string>
   ): Promise<DomainCheckResponse>;
   public async checkDomainTLDs(
     sid: string,
